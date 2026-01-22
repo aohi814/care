@@ -1,0 +1,20 @@
+“Good morning, Stacey! It’s great to finally meet you. Thanks for having me today.”
+
+I’m Jason Littleton, a Senior .NET Developer and Systems Engineer with over a decade of hands-on experience designing and delivering secure, cloud-native enterprise systems — the kind that keep the lights on and the servers happy even on Monday mornings.
+
+For the past few years, I’ve been leading development at TCI Technologies, where I’ve architected .NET 8 and Blazor-based microservices, deployed across Azure, AWS, and GCP — with a sprinkle of GraphQL magic, container orchestration, and enough CI/CD automation to make DevOps folks smile.
+
+Before that, I worked with FocusApps and Sunflower Lab, building enterprise-grade platforms that blended .NET Core, Angular, React, and AEM to create dynamic, scalable user experiences. Along the way, I also got to mentor teams, streamline deployment pipelines, and make performance tuning feel like a competitive sport.
+
+If I had to summarize my work philosophy, I’d borrow the old proverb:
+
+“Measure twice, deploy once.”
+I believe clean architecture, automation, and communication are the real three pillars of great engineering — not just code.
+
+What drew me to LATCH is your commitment to empowering clients through systems engineering and technical assistance (SETA), and your focus on federal modernization with AI-driven automation and cloud architecture.
+It aligns perfectly with what I’ve been doing — bridging modern .NET systems, Azure functions, and intelligent automation frameworks to build solutions that are not just functional but future-proof.
+
+And honestly, any company that encourages people to “think audaciously” instantly has my attention.
+I’ve always believed that in engineering — just like in life — “fortune favors the well-documented and version-controlled.”
+
+So, I’m excited about the chance to bring my technical experience, leadership, and a bit of humor to LATCH — helping modernize systems while keeping things secure, efficient, and maybe even a little fun along the way.

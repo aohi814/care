@@ -1,0 +1,19 @@
+“That’s a great question — and I’ll try to answer it without sounding like my LinkedIn summary.”
+(light chuckle)
+
+I believe I’m a strong fit for this role because I bring the right blend of hands-on technical depth, systems thinking, and leadership maturity that LATCH is looking for.
+
+For starters, I have over 10 years of experience designing and deploying secure, enterprise-grade .NET and Azure solutions — from modernizing legacy systems to building cloud-native, containerized architectures that can survive anything short of a zombie apocalypse.
+
+At TCI Technologies, I led projects that blended .NET 8, Azure Functions, Kubernetes, and Power Platform automation — very much in line with LATCH’s focus on building AI-driven, scalable cloud solutions for federal clients.
+I’ve also been deeply involved in CI/CD, security compliance, and DevSecOps automation, which ties perfectly with LATCH’s work in secure digital modernization.
+
+Beyond the tech, I bring a systems engineer’s mindset — meaning I look at how people, processes, and platforms connect.
+Whether it’s optimizing performance, mentoring developers, or aligning architecture to mission objectives, I’m comfortable owning the full lifecycle — design to delivery.
+
+And to be honest, I’m drawn to LATCH because your mission fits how I work — you don’t just “ship software,” you engineer systems that serve purpose.
+As the proverb goes, “The best systems are invisible — they just quietly work.”
+That’s exactly the kind of reliability and quality I aim to deliver.
+
+So in short — you should choose me because I can bring deep technical experience, a collaborative mindset, and a problem-solver’s energy to the table.
+I build with scalability in mind, automate wherever possible, and try to keep things human — because even in a world of AI and microservices, teamwork is still the best framework.

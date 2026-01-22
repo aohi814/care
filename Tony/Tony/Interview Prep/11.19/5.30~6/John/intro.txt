@@ -1,0 +1,8 @@
+“Thank you, Jana, I’m excited to talk with you today.
+I’m John Paul Kee, a Staff Software Engineer with strong experience building scalable, high-performance platforms across fintech, AI-driven engagement systems, and cloud-native microservices. Over the past several years, I’ve led development in Ruby on Rails, Golang, .NET Core, and modern cloud stacks—designing distributed systems, event-driven architectures, and real-time processing pipelines that serve millions of users.”
+
+“A big part of my recent work has been building secure, fault-tolerant backend services, optimizing complex SQL queries, designing high-throughput APIs, and architecting microservices on Kubernetes and AWS—including SQS/SNS-based event workflows, containerized deployments, and zero-downtime CI/CD pipelines. I’ve also delivered polished frontend features using React, JavaScript, and modern UX patterns to ensure seamless user experiences.”
+
+“What really attracted me to DigniFi is the blend of engineering challenge and mission impact. Building real-time credit decision engines, millisecond-response financing systems, and dealership-facing interfaces aligns perfectly with the kind of high-stakes, performance-driven systems I’ve been leading. And I love the fact that the work directly helps people get essential car repairs—there’s purpose behind the technology.”
+
+“I’m excited to learn more about your engineering culture and discuss how my background in scalable architecture, event-driven systems, and full-stack development can contribute to DigniFi’s next generation of financing products.”

@@ -1,0 +1,460 @@
+Joshua Cohen | 00:00
+And, I focused on debugging systems and especially, building secure user APIs. And yeah, at Strife, I improved dashboard load times by using search engine optimization and converting the React pages in Next.js dashboards.
+I have experience in my second company, MFa. I mean, Pinters. I adopted its much effect this authentication for the web applications. Yeah, so I have... So I'm familiar with front-end technologies and my strength is diverging complex systems and optimizing performance and collaborating across teams.
+At the company I cut, I did sales scare dashboard a lot of times from about 20 to 30%. With web sockets and better state management technologies. At the Strife company, I set up CI/CD pipelines and they reduced the build cycles from weekly to daily. I work closely with Fagan and CI members.
+For example, I've built a reusable component library that's been of UI developments by about 20-40%. Yeah, that's very much for me. Thank you.
+Speaker 2 | 01:49
+Perfect. Thank you very much.
+Speaker 3 | 01:51
+Cool. Okay. How about we dig into some more tech questions here.
+Joshua Cohen | 01:58
+Sure.
+Speaker 3 | 02:00
+Let's start with some web stuff I want to ask you about, this thing called CORS in the context of frontend web development. Can you tell me a little bit about what CORS is, when you might come across it, and how you might go about solving the issue if it rejects you from doing certain things on the front end?
+Joshua Cohen | 02:24
+You mean coarse protocols?
+Speaker 3 | 02:27
+Yes.
+Joshua Cohen | 02:29
+Yeah. So, I'm have experience, with our and coding and working with core, protocols. So M is, the course is the acronym of, cross or, reference decre, is that right?
+So, yes, at my rest company p strife. I have experienced to deal with that, course protocols. So, the it's, it is, the secret protocol that, prohibits, third party websites to accessing the data to the specific domain names.
+So, that cross origin resource sharing protocol is a browser security layer. That's this kind of layer that, so that it controls whether front end web pages are running on my specific domains. It is allowed to make requests to the
+different domain names. So, to protect it, it is used to, yeah, it is used to protect the users from cross site requests. Cross site requests are forgeries and malicious requests making feeding requests to steal the user's credentials and other sensitive data.
+Yeah, I think there is.
+Speaker 3 | 04:22
+Cool. How would you go about solving a core error if you see that familiar red message in the console that you can't hit some endpoint because of cores?
+Joshua Cohen | 04:36
+So, yeah, during, I think, how can we fix the core issues?
+So I think, there is core related, there is SCDP protocol that defines the header properties, like OS control allow and OS control origin headers, for example.
+So we can set the core middle in the back-end side that fits those kind of header properties every incoming request so we can use the OS control all our origins and OS control all our methods and all OS control allow headers.
+So kind of like this, we can put the middleware layer into the back-end side so that it can solve our server issues. And of course, I have this experience that our API requests are broken by these core protocols.
+So we set up a kind of proxy like parks are fitting into the front-end sides so that they turn around the core protocols. And, yeah, that was helpful to fix core errors. Yeah, that's it.
+Speaker 3 | 06:19
+Can you tell me a little bit about these newer fields that are coming out? There's a cross-origin opener policy, cross-origin better policy. Have you heard of those?
+Joshua Cohen | 06:31
+You mean t you mean about the Corus origin policy?
+Speaker 3 | 06:36
+Yeah. So there's a couple of new headers on the web, I want to say, as of last year or two years ago, right?
+Because CORS is a resource security policy. But there are now policies for opener, policies for EMB, and I believe there are policies for frame as well.
+Joshua Cohen | 06:46
+Yeah.
+Speaker 3 | 06:55
+Can you speak to those?
+Joshua Cohen | 07:00
+Let me think. So yeah, right, across origin policy is a kind of, rules in web security that and, that dictates how web applications from different origins, you know, domains and protocols and poss, they can interact with each other.
+So primarily to prevent unauthorized data sets and the default rule the same origin policy that is the policy that BB such inter block such interactions. So while cross origin resource sharing is that is the protocol that provides a mechanism.
+Yeah, there's a kind of mechanism to allow the, to allow these interactions, when permitted by when they are the requests are permitted by the server. So additionally across or versus for policy that there's protection rayer that prevents certain sites from loading vessels from other origins.
+Yeah, that is.
+Speaker 3 | 08:19
+Are there any requests that are not subject to a CORS security layer?
+Joshua Cohen | 08:27
+Maybe. OPGEN.
+Speaker 3 | 08:31
+Okay. What is the option method? What is it used for generally?
+Joshua Cohen | 08:38
+So the option method is sent to the server before we send any specific request for API requests.
+Speaker 3 | 08:39
+S.
+Joshua Cohen | 08:47
+So the option methods first send will send the server and check. This request is allowed by the course policy and it returns I think I believe it returns the course. Related. Response headers from the server which allows the forwarding re:ful API requests like get, post, and delete, and the others.
+Speaker 3 | 09:22
+Is there any way on the front end to avoid sending option requests before?
+Joshua Cohen | 09:32
+Or. I didn't catch that. Can you and can you repeat again?
+Speaker 3 | 09:35
+Yeah, so option is usually sent when you're doing network communication. It's usually as part of a preflight request, right? But there are a couple of cases where your network request is not subject to the preflight check.
+Joshua Cohen | 09:56
+Yes.
+Speaker 3 | 09:56
+Can you think of any s?
+Joshua Cohen | 10:00
+Yeah, so, the let me think.
+So, we, I think, the request gives the free flight is. If it's quality if it qualities as and when this request is kind of simple requests like by which specific that kind of request that means when the method is simple only this methods qualify gets heads and posts and I mean the when headeds header structures simplified and.
+Yeah, when? Yeah, by simplifying the header structures, we. I think we can, skip this free fries. Procedures. Yeah, I think.
+Speaker 3 | 11:22
+Let's talk a little bit about some tooling. So here at Magic Mirror, we use Git as our main version control system. We use GitHub as our platform of choice for Git-related things. I'm going to ask you some Git questions. Can you tell me the difference between a Git merge and a Git rebase?
+Joshua Cohen | 11:43
+Good merch and git rebase. Yeah, so, I think there's two, operations to go. This operation between two different branches, right? So, this, git merge and git rebase, these, two, g, branch merging methods.
+But there are two distinct and distinct methods for interacting and in integrating changes from one git French into another French. So, first get mer. I believe it creates a new mer. It creates a new commits. You mean, the o or commits emerging? Git combines the changes from the source branch and into the our target branch for creating new mortgage commits.
+But by default it message says that it merge, with something, from yeah, kind of like this. And it or original commits from both branches remain intact, including their individual comment messages and time stamps.
+Yeah, it remains or individual time stamps and message and committed histories. And. And as for Kiry base. And I think it's, m trim the GitHub, trim the git commit histories, so it makes the history cleaner and linear.
+So it, in one word, it reser comment history revising and revise. Kid revising is, effectively moves or reries or sequence of commits from one branch on the another base commits and typically the latest comics of the target branch.
+Yeah, this git rebase. This command creates a linear history by making it appear as if the future branches commits are committed in the or another branches. Yeah, I mean were made directly on top of the target branch.
+Yeah, so it reverse a voice creating word comets and resulting in cleaner and more linear history. G history graphs. Yeah. Yeah, that's pretty much for me.
+Speaker 3 | 14:23
+Cool. I've actually heard a couple of people tell me that it makes linear branches and that that's cleaner.
+Joshua Cohen | 14:31
+Yeah, yes.
+Speaker 3 | 14:33
+So I want to ask you then, what is the point of a cleaner Git branch? Why should we care?
+Joshua Cohen | 14:41
+Because it is a visually, EAs to C and so, as for, the main reason we are using git is for maintaining the versions of the products and our development stage. So, maint, maintaining and the aligning the whole, developments, versions version versions in line sequence. This is very important for, EV application de development and yeah, and the software engineering stage.
+So that's that is why we use git rebase. Frequently that is used to integrate changes from one branch into another. And similar to g mur yeah it's similar to ge merch is we that is trimmed on that removes the on trivial things and make the gith cleaner and linear that is very I that's important. I think.
+Speaker 3 | 15:51
+Are there any commands in git where a linear history is more beneficial instead of a multibranch merge history?
+Joshua Cohen | 16:14
+Instead of git rebase, we can use... I have experience using git cherry-pick commands for cherry-picking individual commits and making the history clearer.
+Yeah, that is I go ahead, I'm done.
+Speaker 3 | 16:36
+Okay. And so what does cherry-pick do? And how does that help us in git to get a clean git history?
+Joshua Cohen | 16:45
+Tra.
+allows you to select and apply a specific commit from one branch to another. By using this, you provide a granular control over which changes are integrated and leading to a cleaner history without creating unnecessary commits.
+Yeah, I think that is is.
+Speaker 3 | 17:23
+Okay, cool. What is the difference between the author and the committer in author committer?
+Joshua Cohen | 17:30
+Author and committer. I of course, committer is the developer who committer a specific snapshot of the products.
+Speaker 3 | 17:33
+Yeah.
+Joshua Cohen | 17:41
+And I think order. Let me t so order is a person whos take charge of that codebase.
+I think, o order is the person who is originally wrote. Yeah, order is the first person who wrote that code. For, or made the changes is ca is crates in a commits. Yeah, this field records the names and their email address along with the data and the changes originally orders and yeah and committer is the person for less apride less right of work the a repository meaning yeah, they were the one who executed the git commit commands.
+Yeah, so. So, yeah, thank you.
+Speaker 3 | 18:49
+Okay, let's talk a little about JavaScript and Typescript then.
+Joshua Cohen | 18:53
+Two.
+Speaker 3 | 18:55
+Let me see what's a fun one in Typescript. Can you tell me the difference between an enum and a constant enum?
+Joshua Cohen | 19:05
+Inamum. Yeah, in tab scripts. The main difference between on enam and, constant enom is that, you know, a regular, you know, defines a set of names named constants. And that generates a JavaScript code and compile time.
+Yeah. And this generates the codes typically creates and objects. Yeah, on an immediately invoked function and expression that allows for both forward and rebus Bluecroft at around time. Yeah. And as for costs inom costs enom is a declared using the const keywords for an m keyword definitions.
+So the key difference is that, I think the cost items are conflictory removed during the comparation and do not generate any ES 6 code. Yeah. Instead, the compiler in lines the actual values of the cons in know members directly in the code wherever they are used.
+Yeah, that's.
+Speaker 3 | 20:25
+Cool. So what ends up aside from the fact that code is generated in the case of enums and not in the constant case? How do the behaviors of the two actually change? Are there things you can do with a constant enum that you cannot with an enum? Or vice versa?
+Joshua Cohen | 20:48
+Sure. So let me think. Cons unums can only use ksinum expressions and cannot have community members.
+So, I'm sorry. I didn't catch. I didn't get the point. So could you please repeat again?
+Speaker 3 | 21:16
+Yeah. So, were you able to helpfully explain to me the differences in the compiled code between the enum and the constant? I just want to know, as a result of those differences, are there things that you are able to do in code with an enum that you're not able to do with a constant enom?
+Joshua Cohen | 21:39
+You mean the main difference between a constant enum and an enum when they are compiled into ES6 JavaScript?
+Speaker 3 | 21:48
+Yes.
+Joshua Cohen | 21:49
+Yes. So, you know, the constant in, is, when TABSCRIPT is compiled into the ES 6 JavaScript, the constant interim is not, filled in the, JavaScript.
+So, the these random objects are, these, generated codes is, typically, is, converted into a Java and yes, six JavaScript. So the standard enom compiles and immediately invok function an expression that creates, a JavaScript objects.
+So. On the other hand, costs in them and that is compiler time only construct structure and constructs. So it is completely erased from the final e six JavaScript, code vase and that is refrase. And it refer any references to its members with their with its finer values.
+Yeah, I think that it's.
+Speaker 3 | 23:10
+Can you talk to me a little bit about the symbol type that was introduced in ES 6 of.
+Joshua Cohen | 23:17
+Simple. Yeah, simple is, that is the kind of data types in ES unique data types in the Es 6. Yeah, symbol is a, the, new, a new data type then creates a unique and immutable identifier. It has no, or, it e there is it hasn't, it different, with the other, JavaScript, data types, unlike any other primitive types like strings or number numbers and you know, objects.
+So, S so simple types, they don't have, a literal form and they are created, they are only, created from using the symbol factory function. Yeah. So, they are used to avoid naming collisions for object properties. They are just, they're just long. Random str random, yeah, string strings.
+So that is, used for identify the, individual and different, variables and, properties. And yeah, there has no specific. No, yeah, I think that is.
+Speaker 3 | 24:57
+And so, what are the equality rules for a symbol object?
+For example, if you compare two symbols for equality, when would you be able to say that one symbol is equal to another?
+Joshua Cohen | 25:16
+So and when we are comparing to signal, data signal values, so.
+When these two signal values, I indicating the same objects, same variable or same properties. I think. That time it re the equal operator returns the true values.
+So yeah, I think that is.
+Speaker 2 | 25:55
+Okay.
+Speaker 3 | 25:56
+Cool. Let's talk a little bit about the iteration syntax and ES6. Can you explain to me the difference between for...of and in?
+Joshua Cohen | 26:09
+Yeah, foreign and for off they are, main and they are main iteration of RADS in JavaScript. So, I think I believe that, foreign is, used for, or array data types and no, I think foreign is used for objects and we used to for off, array variables for iterations.
+Yeah, that's it.
+Speaker 3 | 26:44
+When you use for...in on an object? What do you get if you're iterating for...in item in object? Generally speaking, what is the item going to be.
+Joshua Cohen | 27:01
+Yeah. There was, I think foreign is for, iterating oray element oray variables. And fourth is for iterating the objects. When we use foreign this it is, that is iterating the aay variables and it returns every element in the a race.
+Yeah, that's it.
+Speaker 3 | 27:38
+In TypeScript? What is an ambient.
+Joshua Cohen | 27:44
+In tough scripts, we use ambient and ambient declaration for. So define, defining the, you know, yeah, the ambient decorations, the, tails. We use that to compile that in this, code is from the, separate source like a JavaScript library and some the other external implementations. The I think the ambience ambient means that without.
+I think that means the. Without implementation. This allows TASCRIPT to provide the Type tricking and the other tab scripts. Functionalities. Yeah, I'm familiar with Fox.
+Speaker 3 | 28:53
+A little bit about React before we write some code. In React, I guess, before we get into this, I assume you're familiar with more recent versions of React that include things like hooks.
+Joshua Cohen | 29:09
+So, folks are the. How can understand is the shorthands. Shorthand functions for that it references and simplifying the original component and the class based React components.
+So, instead of just, psycho function psycho methods like, component amounts or component updates, should updates like that instead of that, life cycle functions, we just we can use, simply use effect use the states for the m functional React, components, decoration and implement.
+Yeah, I it is.
+Speaker 3 | 29:57
+Cool. Okay, so what is the difference then in the useEffect hook when you do not provide a dependency array versus when you provide it an empty dependency array?
+Joshua Cohen | 30:09
+I believe we use the useEffect hooks to implement the side effects that are not relevant to rendering the components.
+You can call external APIs and other callback functions in useEffect and use it.
+So, we are passing some variables to the dependency array of the useEffect. I believe this useEffect is invoked whenever these variables inside the dependency array change. No matter if these are state variables or just simple constants and props. When these variables inside this dependency array change, React runs this function inside useEffect every time.
+I think the useEffect hook gets executed only once when the React component is mounted. So we can use it to perform tasks like mounting and unmounting lifecycle functions. We can define them as active and still define them with functionalities that run on mounting and unmounting of the component.
+Yeah, I think there is.
+Speaker 3 | 32:07
+Cool. What about if you give it no dependency array at all? What happens then?
+Joshua Cohen | 32:12
+Yeah, as I said before, if we pass an empty array, it executes only once when.
+Speaker 3 | 32:20
+Sorry. Not an empty array. Just nothing. You don't provide it an array at all.
+Joshua Cohen | 32:28
+Nothing. We didn't or wor if we don't define the array at all. So the if we and if we don't define the defend C array at all. You were, since, it is use effect runs, when the defendants raise values, that cut changes, so. The us is a TD. I believe that, the effect or function will run after every single range of the components.
+Yeah. They will run every rendering of that components. Wherever the component re renders due to some props or the changes. Yeah, that Is effect will we will be executed it over and over because it has no specific values inside its dependency race. Yeah.
+Speaker 3 | 33:30
+Okay, thank you for that. We're going to write some code now. We're going to ask you to write some code now. Can I have you share your screen with us, please? You can open whatever your preferred code editor is going to be. We ask for the duration of this little assignment that you turn off any AI Assistant-related coding tools if you have any s.
+Joshua Cohen | 33:56
+Yeah, sure. So, I'll share my screen.
+So I'll choose the BS code.
+We are cooked. So,
+yeah. I showed my screen. What is this?
+Speaker 3 | 35:25
+Can I have you go into your extensions here in VS Code and disable Copilot?
+Joshua Cohen | 35:33
+Sure. So, where is it? Should I disable this?
+Speaker 3 | 35:46
+Yes, and then click that little Restart extensions button.
+Joshua Cohen | 36:01
+I think there be enough.
+Speaker 3 | 36:01
+Okay, cool. So, I'm going to ask you to write some JavaScript code for us. So, why don't you make a new JS file and then give you the function.
+Joshua Cohen | 36:23
+Yeah, I'm ready.
+Speaker 3 | 36:27
+So what I want you to do is write us a function. You're going to iterate through a list of numbers from one to 100 for each number. If it's divisible by
+3, you're going to print the word "fizz" into the console.
+Joshua Cohen | 36:48
+But you mean... Could you repeat again? I didn't get it.
+Speaker 3 | 36:54
+Yeah, so you'll iterate from the numbers 1 to 100 for each number. If it's divisible by 3, I want you to console log the word ZZ.
+Joshua Cohen | 37:10
+If. you mean feeds?
+Speaker 3 | 37:14
+Yes.
+Joshua Cohen | 37:15
+Thank you.
+Speaker 3 | 37:15
+If the number is divisible by five, I want you to console log the word buzz. BUZZ.
+Joshua Cohen | 37:23
+Yes.
+Speaker 3 | 37:26
+And then if the number is divisible by both 3 and divisible by 5I want you to console log the word fizz Buzz.
+Joshua Cohen | 37:34
+You mean is visible by 3m5 way logs and fees and bus at time.
+Speaker 3 | 37:43
+Yes, please.
+Joshua Cohen | 37:44
+Yeah I got it.
+Speaker 3 | 37:45
+So fizz, buzz, otherwise, just console log the number.
+Joshua Cohen | 37:55
+Justle console the loan.
+Sure is that all?
+Speaker 3 | 38:11
+Yes.
+Joshua Cohen | 38:13
+Yeah so what is it?
+I'll choose JavaScript. Is that okay with you? Yeah. Thank you. What is that?
+Sir? First, I'm going to iterate the number from one to 100. I so...
+Hold on. Are you able to run Seven?
+Speaker 3 | 41:47
+Before you run it.
+Joshua Cohen | 41:48
+Yes, sir.
+Speaker 2 | 41:49
+Talk to us. What's going on with.
+Speaker 3 | 41:52
+Each line of the code?
+Joshua Cohen | 41:56
+First, I'm iterating from one to 100.
+And if the number is divisible by three, I logged the "fizz" to the console and ID for the numbers. Digit for five. I locked the butt string and if this number is... it's either... it's not either divisible by four by three or five, I just log it.
+Yeah, is that right? Yeah, so, yeah, please, yeah, so let me run my coats.
+Speaker 2 | 42:39
+Go ahead.
+Joshua Cohen | 42:52
+So, yeah, what is this?
+That's odd.
+The path and the mismatches.
+Well, it's not working.
+Speaker 3 | 44:28
+Here. Do you think the problem is he.
+Joshua Cohen | 44:32
+I think the paths maybe mismatch. So yeah, I think there.
+Speaker 3 | 44:41
+Yeah, I can see that your file is saved into this one JS inside of a couple of different folders. But we're in downloads right now, right?
+Joshua Cohen | 44:50
+Yeah, so I believe it's now yeah.
+Speaker 3 | 44:52
+So maybe you can. Yeah. Can move the file in. Just like that. Nice. Let's see what happens.
+Joshua Cohen | 45:04
+How was this? H so?
+Speaker 2 | 45:23
+So the output is buzz, right? So let's just try to.
+Joshua Cohen | 45:26
+Yeah. It's all.
+Speaker 3 | 45:27
+Figure out what's happening here. Yeah, I guess. First of all, what would you have expected the output to be?
+Joshua Cohen | 45:43
+Maybe.
+Remit... Check.
+Speaker 3 | 45:57
+Sure.
+Joshua Cohen | 46:18
+A second. It is those two that displayed in the same list, hu.
+Speaker 3 | 46:29
+Yeah. Ideally, for the numbers that are divisible by both three and five, I'd like just the word "fizz buzz" with no spaces, no line breaks.
+Joshua Cohen | 46:40
+Yeah, I can cut it now. Thank you. So like this.
+So.
+I think that would be unnecessary pointless.
+Should I put it... A TRIPQUAL.
+Speaker 2 | 47:26
+I mean, what? What is the difference between a triple equal and.
+Speaker 3 | 47:29
+A double equal?
+Joshua Cohen | 47:31
+Yeah, I believe trip core is 30 if the types arequ I think if there are both numbers, strings. Yeah, I think that is if we just use double equal. It just the, compares the values.
+You know, if the do 2, two data types are different, it may convert it convert one data type into the other so and then it compares the values and returns the results. So I think we is it'll be safe. We set the t vas here.
+So let me re run the coat.
+Speaker 3 | 48:25
+You think what do you think?
+Joshua Cohen | 48:28
+Yeah, I think, let me see. 15 and 30, 45... Yeah, I think that is.
+Speaker 2 | 48:47
+Okay, so let's go over the... You have the instructions in your README. Let's go over it and just make sure that we checked off all the boxes?
+Speaker 3 | 49:08
+Can you scroll all the way down to the bottom of your output.
+Joshua Cohen | 49:12
+Sure. So all you want is either raise from one to 100. So, yeah, how about that.
+Speaker 3 | 49:27
+I was gonna say I was expecting one more guy down there. There is our final but. Okay, cool. All right. What is the time complexity of your solution?
+Joshua Cohen | 49:45
+We iterate from one to 100. There's only one loop inside the code. We just iterate from one to 100. For each element, we are with you just our log run the single line for each element.
+So, when we set this time complexity with Big O methods, I'd say it will be Big O in space complexity.
+Speaker 3 | 50:28
+Okay. What about the space complexity of your solution?
+Joshua Cohen | 50:34
+Yeah, we just used a single integer variable. What? We just use single variables, so there, I think just... Space complexity would be one.
+Yeah, or one.
+Speaker 3 | 50:50
+Okay, great. All right, it looks like we've got... I want to say there's seven more minutes. So at the end here, I'd like to leave it open for you to ask us any questions if you have.
+Joshua Cohen | 51:06
+Sure.
+Speaker 3 | 51:11
+So do you have any questions for us?
+Joshua Cohen | 51:15
+Yeah, first, thanks for giving me the second opportunity. So I'm really excited to get involved in this technical interview. So, yeah, if I may ask some questions, I want to know more about the team environments and the work collaborations in work carts inside a maing meter company.
+Yeah, I'm really... I'm curious about that.
+Speaker 3 | 51:44
+Yeah. So right now, we're a very small team. I don't remember if Daphne had mentioned to you during your first interview, but there's maybe ten of us in total right now, of which I would say for development, it's I think four in total.
+Joshua Cohen | 51:55
+Yeah.
+Speaker 3 | 52:00
+And front end, it's Mike and myself, just the two of us. So the addition of even one or two more engineers will double or triple our output. As far as the day-to-day goes, we have a ticket system through a service called Linear, and we meet at the start of every week to scope out what our next push for each sprint is going to be. We generally have one-week or two-week sprints.
+We're a very flat structure right now because the team is so small. So effectively, there are a couple of tickets that need to get done for the feature or the bug fix or whatever it may be to be delivered.
+So all of these are queued up in Linear by our project manager/product manager. And you kind of assign one to yourself if you think it looks interesting and then you take it. So you have full ownership over that feature or bug delivery. You work as much as you can.
+If, for whatever reason, you hit a wall and decide that you actually can't do this in the way that you first thought, you can take yourself off of it, put it back, and we can meet around it and discuss and figure out the better solution here. I would say that the normal workload is... There's not like an expected amount of things that you need to be doing every day. Some days you get more done, some days you get less. It will just depends.
+Joshua Cohen | 53:39
+Two.
+Speaker 3 | 53:40
+I like to think of us as not particularly strict when it comes to these kinds of things.
+Then Mike is usually remote. We do have an office where we try to meet in person, and so we ask him for his time one day out of the week for these larger project meetings and stuff, but otherwise, we're generally fine with remote work.
+I mean, I'm obviously at home today, so.
+Joshua Cohen | 54:08
+So yeah, I'm sorry.
+Speaker 3 | 54:10
+Sorry, no, go ahead.
+Joshua Cohen | 54:13
+Yeah, so I was wondering, how many members are there in the headquarters office?
+Speaker 3 | 54:25
+Yes, let's see. We've got myself and Daphne. We've got our project, SLA, product manager, Katherine. We've got Mike.
+Joshua Cohen | 54:33
+Catherine S.
+Speaker 3 | 54:35
+We've got... Let's see, there's Erin and Ed, and we've got a sales guy, and then we're not in person in the office, but we've got a remote AI/ML expert in Israel, and we've got a remote backend in Ukraine, so that's I think that's ten, nine or ten.
+Joshua Cohen | 55:00
+Wow, that is a very global enviro gloine. So, are there any in Japanese skies?
+Speaker 3 | 55:13
+Both Mike and I are Japanese. I don't speak much.
+Joshua Cohen | 55:16
+Well, you mean you're not quite Japanese?
+Speaker 3 | 55:17
+But. Mike used toir.
+Joshua Cohen | 55:22
+You mean you are not quite Jeffanese?
+Speaker 3 | 55:25
+Yeah, I don't speak very much. I am Japanese, but I mean only in name.
+Joshua Cohen | 55:27
+Yeah, you must be visiting the US. I get it. I'm interested in the Japanese language, and I'm just curious about that.
+Speaker 3 | 55:42
+Yeah, Mike speaks, and he used to work in Japan actually, so he'll talk for hours if you let him.
+Joshua Cohen | 55:49
+So, Mike, are you based in Japan?
+Speaker 2 | 55:52
+No, I'm in Los Angeles, but I used to work in Japan.
+Joshua Cohen | 55:55
+Yeah.
+Speaker 2 | 56:00
+Yeah, I mean, to add to what Peter said, like, we don't use Fibonacci point pointing of our tickets, and it's right.
+Joshua Cohen | 56:11
+You mean... Story point, Right.
+Speaker 2 | 56:15
+Exactly. As long as you get your work done, you can work your own hours.
+However, the important thing is getting your work done. If you've ever worked for a startup, it's a little bit different from just like say a big hundred-person or plus company where it's you definitely have structure and defined roles and tickets that you need to do. Whereas here, if you want to work on something, you could definitely work on it.
+If you have an idea for something, you could definitely bring it up and add it to the story, and you could even work on it. So, there's a lot of flexibility, and that's the great thing about working for a startup.
+Speaker 3 | 57:17
+But.
+Speaker 2 | 57:18
+Yeah, I'm in the Irvine office once a week. I try to be, and it helps one make sure that I'm a real person. Then two, it's just good to collaborate with the rest of the team because, being virtual,
+it's just not the same as it is when you're in person.
+Joshua Cohen | 57:41
+Thanks, Mike. So, if you don't mind, would you free-check my deference levels?
+Speaker 3 | 57:42
+No.
+Joshua Cohen | 57:48
+Some simple sentences or questions, not technical things.
+Speaker 3 | 57:56
+What's that?
+Joshua Cohen | 57:59
+I is okay, just I want to check my deference levels, so ask any questions. I mean, let me check. I can understand that.
+Speaker 2 | 58:13
+Well, I mean, like, I guess, I mean, it's been a minute, but, I mean.
+Joshua Cohen | 58:25
+Yeah.
+What? Simple? You are Georgia Cris Damas, well, that's on a California, this sten or disk, that you... Nain, Nain, Zu, Nizan, Haini, Georgiasi, Yuhi. So, don't talk, call digital gray mata.
+Speaker 2 | 58:37
+London.
+Speaker 3 | 58:59
+So go.
+Speaker 2 | 59:03
+Yeah, the Japanese is good.
+Joshua Cohen | 59:05
+Thank you. I'm really interested in some Asian languages,
+like Chinese or Korean and Japanese. Yeah, I'm originally... One of the ancestors from Asia, so I think I have never seen it.
+Speaker 3 | 59:24
+Nice, but learning.
+Speaker 2 | 59:26
+Multiple languages are good.
+Joshua Cohen | 59:28
+Yeah, thank you.
+Speaker 3 | 59:31
+Okay, well, I think that is about it for time, so if you have anything else you want to ask us, otherwise, I think we'll let you go.
+Joshua Cohen | 59:39
+Yeah, so, I want to know about the next step of this. What's the next TA?
+Speaker 3 | 59:46
+Yes. So, after this, on our end, we. We're going to meet and go over things. We will contact you either way, but if we want to move forward, the next step would most likely be a longer, deeper technical interview. You can probably expect it to be a couple of hours.
+Joshua Cohen | 01:00:04
+Sure.
+Speaker 3 | 01:00:07
+And most likely we'll ask you to build a light amount of an application or a product from start to end. I personally am not a fan of the LeetCode and all that other stuff, so I will try my best to avoid asking you questions like these for that kind of project, but it will generally be a longer one.
+Then you'll have some time to ask any other questions regarding the team or fit or anything like that.
+Joshua Cohen | 01:00:35
+Sure, thank you.
+Speaker 3 | 01:00:40
+Alright, well then, in that case, I think we are all about wrapped up here. Thank you for your time today. It's great seeing you again.
+Joshua Cohen | 01:00:47
+Yeah, thanks for your time.
+Speaker 2 | 01:00:50
+Yeah, thank you.
+Speaker 3 | 01:00:51
+And I will reach out hopefully sometime next week regarding the next steps.
+Joshua Cohen | 01:00:58
+Sure, thank you, yeah, thank you.
+Speaker 3 | 01:01:01
+Right, thank you.
+Speaker 2 | 01:01:02
+Have a good evening, David.
+Joshua Cohen | 01:01:03
+Have a good byye.
+Speaker 2 | 01:01:05
+Thanks, bye.

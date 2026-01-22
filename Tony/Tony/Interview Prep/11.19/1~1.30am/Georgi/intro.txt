@@ -1,0 +1,7 @@
+“Hello Thomas, great to meet you. I’m Georgi, a Senior Web Developer with over 10 years of experience building high-impact applications across SaaS, fintech, and e-commerce. In my recent roles, I’ve worked heavily with React, Next.js, and TypeScript to rebuild core platforms, improve performance, and deliver scalable front-end architectures.”
+
+“For example, I recently led a redesign of a B2B SaaS system using React and Next.js that reduced page load times and improved user retention. I also created modular internal dashboards and optimized UX flows that helped reduce churn.”
+
+“I have strong experience working in product-led teams — collaborating closely with designers and product managers, participating in discovery, and delivering end-to-end features. I also enjoy mentoring, improving code quality, and contributing to CI/CD and deployment workflows.”
+
+“What attracted me to Pennylane is the mission, the product-focused culture, and the opportunity to build tools that genuinely simplify accounting and financial workflows for SMEs. I’m excited about the chance to contribute to a platform used at scale and to work within a collaborative squad environment.”

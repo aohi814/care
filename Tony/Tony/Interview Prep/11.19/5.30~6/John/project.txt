@@ -1,0 +1,88 @@
+AI-Driven Email Marketing & Customer Engagement Platform
+
+Role: Full-Stack Software Engineer (Backend-Focused)
+Tech Stack: Ruby on Rails (7.x), Golang (1.22+), Python (3.11+), PostgreSQL, Redis, GraphQL, React (18+), TypeScript (5.x), AWS (Lambda, SQS/SNS, EC2, S3), Kubernetes (EKS), Docker, Terraform, GitHub Actions, Redux
+
+Overview
+
+Led the enhancement of Mailchimp’s AI-powered email marketing platform, improving automation, analytics, and customer engagement capabilities for businesses of all sizes. Designed a scalable, event-driven system that integrated predictive analytics, real-time campaign automation, and responsive frontend dashboards, enabling high-efficiency marketing operations.
+
+Team Configuration
+
+1 Product Manager – Defined success metrics for engagement, personalization accuracy, and release schedules
+
+2 Backend Engineers (including me) – Rails API orchestration, Golang microservices, and caching
+
+1 Data Engineer – Python-based pipelines for event streaming, analytics, and predictive modeling
+
+1 Front-End Engineer – React/TypeScript UI and GraphQL integration
+
+1 DevOps Engineer – Kubernetes/EKS deployment, CI/CD pipelines, and monitoring
+
+Process: Agile (2-week sprints), GitHub PR reviews, CI/CD automation via GitHub Actions + Kubernetes, daily syncs for model–API alignment
+
+Key Engineering Contributions
+
+Backend Engineering (Ruby on Rails + Golang + GraphQL)
+
+Built scalable backend services in Rails and Golang to handle real-time campaign processing and predictive analytics pipelines
+
+Developed GraphQL endpoints to unify responses from multiple microservices, providing a single API gateway for frontend and ML clients
+
+Designed modular schemas supporting personalized campaigns, segmentation, and expansion for future AI-driven features
+
+Implemented Redis caching and query optimization to reduce latency in high-throughput environments
+
+Data Pipeline Integration (Python + AWS Lambda + SQS/SNS)
+
+Engineered event-driven pipelines capturing user engagement (opens, clicks, conversions) in real-time
+
+Processed streaming data for predictive segmentation and automated campaign triggers
+
+Integrated analytics outputs to continuously improve personalization algorithms and campaign performance
+
+Front-End Implementation (React + TypeScript + GraphQL)
+
+Built dynamic, responsive dashboards using React 18+, TypeScript 5.x, Redux, Material UI, and React Query
+
+Enabled real-time campaign monitoring, A/B testing insights, and engagement visualization
+
+Optimized frontend performance with skeleton loaders, lazy loading, and efficient GraphQL queries
+
+Deployment & DevOps (Kubernetes + AWS + Terraform + GitHub Actions)
+
+Containerized services using Docker; orchestrated on AWS EKS for scalable, resilient deployments
+
+Implemented automated CI/CD pipelines with GitHub Actions and Terraform for infrastructure as code
+
+Monitored services using CloudWatch, Prometheus, and Loki, enabling proactive issue detection and reliability improvements
+
+Impact
+
+↑ 30% increase in email engagement rates via AI-driven personalization
+
+↓ 40% reduction in backend latency through optimized microservices and GraphQL query consolidation
+
+↑ 2× throughput for concurrent campaigns without additional infrastructure cost
+
+Established a robust, event-driven architecture combining backend, ML pipelines, and frontend dashboards for scalable, modular growth
+
+Key Responsibilities
+
+Architecting and implementing high-throughput APIs and orchestration layers in Rails and Golang
+
+Building real-time, event-driven data pipelines in Python + AWS for ML-driven personalization
+
+Designing GraphQL schemas and integrating with React dashboards for responsive user experiences
+
+Deploying and scaling microservices using Kubernetes/EKS, Docker, and CI/CD pipelines
+
+Collaborating with product, ML, and data teams to align engineering solutions with business goals
+
+✅ Relevance to DigniFi
+
+Experience building real-time, event-driven systems capable of high-throughput processing aligns with DigniFi’s credit decisioning engines
+
+Proficiency in Ruby on Rails, Golang, GraphQL, React, AWS, and Kubernetes mirrors the full-stack and cloud-native requirements
+
+Proven ability to integrate predictive analytics and event-driven workflows into user-facing platforms, similar to financing workflows and dealership automation

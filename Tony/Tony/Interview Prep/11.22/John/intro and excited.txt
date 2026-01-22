@@ -1,0 +1,49 @@
+“Thank you for the opportunity to speak today. My name is John Paul Kee, and my last role is a Staff Software Engineer at Meta. And I finished my last position because the contract had expired, and now I am here with you. I have a little over 10 years of experience leading and building production systems using Ruby on Rails, Golang, and modern cloud-native architectures.
+I hold a Bachelor’s degree in Computer Science from the University of British Columbia, where I studied from 2012 to 2017.
+Most recently at Meta, I served as a Staff Engineer, where I led full-stack and backend initiatives for AI-powered customer engagement and payment recovery platforms. Before that at Microsoft, I built and scaled multiple enterprise-grade systems—including healthcare communication tools, digital signage platforms, and financial analytics systems—primarily using Ruby on Rails, Golang microservices, PostgreSQL, and event-driven workflows.
+
+⭐ Team Configuration & My Role
+
+Across my recent roles, I typically worked in cross-functional squads of:
+
+6 engineers (mix of backend, frontend, and data engineers)
+
+1 product manager
+
+1 designer or UX lead
+
+1 QA automation engineer
+
+As a Staff Engineer, my role included:
+
+Leading architectural direction for Rails and Golang services
+
+Defining API contracts, RFCs, and integration patterns
+
+Mentoring mid-level and senior engineers
+
+Pair-programming with teammates to unblock complex technical issues
+
+Driving platform-wide improvements such as performance tuning, schema optimization, service modularization, and observability
+
+⭐ How I Communicate & Collaborate
+
+My communication style is very intentional, especially in remote-first environments. I typically collaborate using:
+
+Asynchronous communication (Slack, Jira, GitHub) for technical decisions, design docs, and proposals
+
+Daily standups / weekly planning to align tasks and unblock cross-team dependencies
+
+Architecture review sessions where I lead discussions around API contracts, event models, and database schema changes
+
+1:1 mentoring for guidance on Rails best practices, service boundaries, and testing strategy
+
+Cross-functional collaboration with security, SRE, product, and compliance—critical in healthcare or HIPAA environments
+
+At Meta and Microsoft, I made sure communication remained clear, solution-focused, and accessible to both technical and non-technical stakeholders.
+
+⭐ Why This Role at SonderMind
+
+SonderMind’s mission really resonates with me. I’ve spent several years building healthcare communication platforms, HIPAA-compliant APIs, patient engagement systems, and event-driven architectures using Rails, RabbitMQ/Kafka, and secure identity flows. This role aligns perfectly with the kind of work I’m passionate about—designing healthcare-centric APIs, simplifying partner integrations, and ensuring secure, high-quality workflows around scheduling, eligibility, claims, and interoperability.
+
+I’m excited about the opportunity to bring my experience to SonderMind and help shape developer-facing APIs and FHIR-based integrations in a meaningful way.”

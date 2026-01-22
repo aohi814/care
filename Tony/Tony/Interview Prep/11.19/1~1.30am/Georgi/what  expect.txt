@@ -1,0 +1,5 @@
+**“From this interview, I mainly expect two things.
+First, I’d like to get a clear understanding of the role, the team structure, and the kind of frontend challenges you’re solving at Pennylane. I’ve read about the product and the engineering culture, but I’d like to hear directly from you how the day-to-day work looks and what the expectations are for someone joining the team.
+
+Second, I want to understand how I can bring value — what skills and experiences matter most for success in this position, and how the interview process is structured.
+My goal is simply to confirm that this opportunity is the right match for both sides.”**

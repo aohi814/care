@@ -1,0 +1,7 @@
+**“I believe I’m a strong candidate for this role because I combine solid technical experience in React and TypeScript with a product-focused mindset. I’m not only comfortable building UI components, but also thinking about performance, usability, and how each feature impacts the end user.
+
+I’ve worked in cross-functional teams, collaborating closely with product managers and designers, so I’m used to fast iterations, clear communication, and ownership. I’m proactive about identifying problems, improving code quality, and contributing to the overall architecture of the frontend.
+
+What makes me a good fit specifically for Pennylane is that I enjoy working on complex products that solve real business problems. I’m motivated by building reliable, scalable interfaces, and I like being part of a team that values autonomy, quality, and continuous improvement.
+
+So overall, I bring strong technical skills, a product-oriented mindset, and a collaborative work style — which I believe aligns well with the expectations for this role.”**

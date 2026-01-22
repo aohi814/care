@@ -1,0 +1,11 @@
+“Absolutely, and thank you for the opportunity. I’m Naga Kadali, a Senior iOS Engineer with more than nine years of experience building secure, scalable, and high-performance mobile applications across banking, fintech, healthcare, logistics, and insurance.
+
+I specialize in Swift, SwiftUI, UIKit, Combine, and have deep experience maintaining and modernizing large iOS codebases, including refactoring legacy Objective-C into modern Swift. At Wells Fargo, PNC, and Citi, I helped lead major mobile modernization initiatives — focusing on architecture (MVVM, dependency injection, modularization), performance optimization using Xcode Instruments, and security features such as Face ID / Touch ID, MFA, Keychain encryption, data protection, and compliance with PCI-DSS, HIPAA, and SOC 2.
+
+I also have hands-on experience with C++ and Objective-C++, especially when integrating native modules, which aligns well with Brave’s mixed Swift / C++ / WebKit tech stack.
+
+Since many enterprise apps I worked on had cross-platform components, I’ve contributed to shared frameworks built in React Native + TypeScript, and have also worked in fully distributed teams across engineering, design, and security — similar to Brave’s fully remote, open-source environment.
+
+What excites me most about Brave is the mission: building a faster, more private, user-first web. I’ve worked for years on apps that prioritize security and privacy, and I love Brave’s approach of building an open-source browser, a completely independent search engine, and privacy-first user experiences.
+
+I’m really excited about the chance to contribute to the Brave iOS browser, help push the app’s performance and security forward, and collaborate with the engineering and open-source community.”

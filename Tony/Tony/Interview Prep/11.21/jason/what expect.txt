@@ -1,0 +1,16 @@
+“That’s a great question — and one I’ve actually thought about quite a bit.”
+
+In my next role, I’m looking for three main things — impact, innovation, and collaboration.
+
+First, impact — I want to build systems that matter.
+LATCH’s focus on supporting federal digital modernization really resonates with me because I enjoy solving problems that have a real-world mission attached — where a more secure, automated system directly supports the people behind it.
+As they say, “Technology should serve purpose, not just process.”
+
+Second, innovation — I thrive in environments where I can explore new tech responsibly — whether it’s leveraging AI-driven automation, Azure Functions, or agentic frameworks to modernize workflows.
+I like to stay curious — the kind of person who reads about new Azure releases like they’re movie spoilers.
+
+And third, collaboration — I expect to be part of a team that values open communication, mentorship, and shared accountability.
+I’ve led cross-functional teams before, and I’ve learned that the best systems are built when engineers and architects aren’t afraid to say, “Let’s test that theory together.”
+Or, as one of my mentors liked to say, “A good engineer debugs code; a great one debugs people’s assumptions.”
+
+Overall, I’m looking for a space where I can contribute as both a builder and a problem-solver — someone who helps bridge cloud architecture, automation, and AI integration — while growing with a team that shares LATCH’s belief in quality, security, and bold thinking.
